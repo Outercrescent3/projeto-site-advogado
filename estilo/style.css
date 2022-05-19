@@ -38,17 +38,27 @@ div>a:hover{
 /* - - - -  - -  MENU MOBILE  - - - - - -*/
 
 .menu-mobile{
-    text-align: right; 
+    text-align: right;
     
 }
+
 .menu-mobile i{
+    position: relative;
     cursor: pointer;
     font-size: 20px;
     margin-top: 10px;
     margin-right: 10px;
+    z-index: 1;
+   
+}
+
+.show-menu{
+    opacity: 1 !important;
 }
 .menu-mobile ul{
     background-color: #f3f1db;
+    opacity: 0;
+    transition: 1s;
     position: absolute;
     top: 0;
     text-align: center;
@@ -57,6 +67,7 @@ div>a:hover{
     line-height: 50px;
     
 }
+
 .menu-mobile li a{
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
