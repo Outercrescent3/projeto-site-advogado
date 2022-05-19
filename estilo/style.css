@@ -55,6 +55,11 @@ div>a:hover{
 .show-menu{
     opacity: 1 !important;
 }
+/*
+
+O opacity no menu-moble ul faz com que o menu suma e a classe show-menu faz com que ele apareça porém é utilizado Js para implementar a classe show-menu, o !important remove o conflito das duas classes. Sem o  !important o código não roda pois as duas classes ficam em conflito.
+
+*/
 .menu-mobile ul{
     background-color: #f3f1db;
     opacity: 0;
