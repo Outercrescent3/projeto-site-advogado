@@ -14,6 +14,7 @@
     --cor04: black;
     --cor05:  #4C564C;
     --cor06: #f9f8f6;
+    --cor07: #d59612;
 }
 
 /* - - - -  - -  MENU DESCKTOP  - - - - - -*/
@@ -53,7 +54,7 @@ div>a:hover{
 
 section .foto{
    padding-top: 154px;
-   width: 1920px;
+   width: 1903px;
    height: 500px;
 }
 .contatos{
@@ -88,13 +89,36 @@ p{
 /* - - - -  - - - - - - - - - - - - - - - */
 
 /* - - - -  - -  SAIBA MAIS  - - - - - -*/
-SVG{
-    color: var(--cor02);
+
+.users{
+    display: flex;
+    justify-content:center;
+   align-content: center;
 }
 
-.fa-gavel{
-    color: var(--cor02); 
+.gavel{
+    
+    text-align: center;
+    margin-top: 30px;
+    height: 200px;
+    width: 200px;
+    padding: 40px;
+    border: 3px solid var(--cor07);
+    border-radius: 70px
 }
+
+.fa-users, .fa-user, .fa-gavel{
+    font-size: 50px;
+    padding-bottom: 10px;
+    color: var(--cor07);
+}
+.saiba-mais{
+    height:30px;
+    width: 150px;
+    padding-top: 20px;
+    background-color: var(--cor02);
+}
+
 
 /* - - - -  - - - - - - - - - - - - - - - */
 
