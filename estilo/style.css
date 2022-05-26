@@ -51,7 +51,7 @@ div>a:hover{
 
 /* ==== ==== Foto e Contato ====== ======*/
 
-.foto{
+section .foto{
    padding-top: 154px;
    width: 1920px;
    height: 500px;
@@ -85,10 +85,20 @@ p{
     color: var(--cor05);
 }
 
+/* - - - -  - - - - - - - - - - - - - - - */
+
+/* - - - -  - -  SAIBA MAIS  - - - - - -*/
+SVG{
+    color: var(--cor02);
+}
+
+.fa-gavel{
+    color: var(--cor02); 
+}
 
 /* - - - -  - - - - - - - - - - - - - - - */
 
-/* - - - -  - -  MENU MOBILE  - - - - - -*/
+/* - - - -  - -  MOBILE  - - - - - -*/
 @media screen and (max-width: 768px) {
     .menu-mobile{display: block;}
     .tela-inicial{display: block;}
