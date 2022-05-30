@@ -26,6 +26,8 @@
     .menu-mobile{ text-align: right;}
     }
     
+/* - - - -  - -  MENU MOBILE  - - - - - -*/
+
     .menu-mobile i{
         position: relative;
         cursor: pointer;
@@ -71,6 +73,12 @@
     }
     
 
+/*======                   =========*/    
+
+/*======         CORPO        =========*/
+picture .foto{
+    height: 100vh;
+}
 
 /*======                   =========*/
 
