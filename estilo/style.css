@@ -5,6 +5,7 @@
     padding: 0px;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 :root{
@@ -15,6 +16,10 @@
     --cor05:  #4C564C;
     --cor06: #f9f8f6;
     --cor07: #d59612;
+}
+#logo{
+    width: 150px;
+    height: 150px;
 }
 
 
@@ -30,10 +35,14 @@
 
     .menu-mobile i{
         position: relative;
+        display: flex;
+        justify-content:right;
+        width: 96%;
+        align-items: center;
         cursor: pointer;
         font-size: 20px;
         margin-top: 10px;
-        margin-right: 10px;
+        margin-bottom: 5px;
         z-index: 1;
        
     }
@@ -58,11 +67,6 @@
         line-height: 50px;
         
     }
-    .tela-inicial{
-        width: 100px;
-        height: 100px;
-        background-color: var(--cor03);
-    }
     .menu-mobile li a{
         text-decoration: none;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -76,11 +80,37 @@
 /*======                   =========*/    
 
 /*======         CORPO        =========*/
-picture .foto{
-    height: 100vh;
-}
+    .foto{
+        width: 100%;
+    }
 
 /*======                   =========*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* - - - -  - -  MENU DESCKTOP  - - - - - -*/
 @media screen and ( min-width: 992px){
@@ -112,10 +142,7 @@ picture .foto{
     div>a:hover{
         color: var(--cor02);
     }
-    #logo{
-        width: 150px;
-        height: 150px;
-    }
+   
     
     /* - - - -  - - - - - - - - - - - - - - - */
     
@@ -126,6 +153,7 @@ picture .foto{
        width: 1903px;
        height: 500px;
     }
+  
     .contatos{
         background-color: var(--cor06);
         margin-top: -4px;
