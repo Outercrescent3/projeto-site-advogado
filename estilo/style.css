@@ -23,7 +23,7 @@
 }
 
 
-/* - - - -  - -  MOBILE  - - - - - -*/
+/* - - - -  - -  MOBILE CONFIGURAÇÕES INICIAIS - - - - - -*/
 @media screen and (max-width: 768px) {
     .menu-mobile{display: block;}
     .tela-inicial{display: block;}
@@ -84,6 +84,27 @@
         width: 100%;
     }
 
+    .contatos{
+        
+    }
+    .contato1{
+        
+    }
+    .contato2{
+     
+    }
+    .fa-envelope, .fa-map, .fa-clock{
+        margin-right: 4px;
+    }
+    .fa-whatsapp-square{
+        font-size: 22px;
+    }
+    p{
+        font-family: 'Poppins', sans-serif; 
+        font-size: 17px;
+        font-weight: 20.4px;
+        color: var(--cor05);
+    }
 /*======                   =========*/
 
 
