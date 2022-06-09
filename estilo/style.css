@@ -4,7 +4,7 @@
 *{
     padding: 0px;
     margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif; 
 
 }
 
@@ -21,6 +21,10 @@
     width: 150px;
     height: 150px;
 }
+
+
+
+
 
 
 /* - - - -  - -  MOBILE CONFIGURAÇÕES INICIAIS - - - - - -*/
@@ -148,6 +152,7 @@ header{
     .tela-inicial{display: none;}
     .menu-mobile{display: none;}
     .menu-desktop{display: flex;}
+}
 
     header{
         margin-top: 0px;
@@ -228,6 +233,7 @@ header{
         display: flex;
         justify-content:center;
        align-content: center;
+       margin-bottom: 20px;
     }
     
     .gavel{
@@ -250,6 +256,7 @@ header{
         margin-top: 20px;
         margin-bottom: 0px;
         margin-left: 20px;
+
     }
     
     .gavel div{
@@ -259,13 +266,63 @@ header{
     
     
     .saiba-mais{
-        height:30px;
+        height:40px;
         width: 150px;
-        padding-top: 20px;
+        padding-top: 15px;
+        padding-left: 10px;
         background-color: var(--cor02);
         border-radius: 10px;
     }
+    .saiba-mais> a:hover{
+     color: white;
+    }
     
+
+/* - - - -  - - - - - - - - - - - - - - - */
+
+.h2{
+    color: var(--cor07); 
+}
+
+.bloco-de-noticas{
+    display: block;
+    height: 500px;
+    padding: 30px;
+    margin-right: 20%;
+    margin-left: 20%;
+    border: 2px solid var(--cor07);
+}
+.todas{
+    background-color: red;
+}
+.todas > div{
+    text-align: center;
+    height: 250px;
+    width: 300px;
+   display: inline-table;
+    
+
+    
+}
+
+/*.noticias , .bloco-de-noticas > h2{
+    height: 200px;
+    width: 200px;
+    margin-top: 85px;
+    margin-left: 19%;
+    color: var(--cor07);
+    display: block;
+}
+
+.noticias> h2{
+    font-size: 32px;
+    padding: 10px;
+}
+
+div > .bloco-de-noticas{
+       width: 1000px;
+    border: 2px solid var(--cor07);
+    }
 }
 /* - - - -  - - - - - - - - - - - - - - - */
 
